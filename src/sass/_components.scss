@@ -1,0 +1,23 @@
+.one {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.main-title {
+  padding-top: 1em;
+  margin-bottom: 0.8em;
+  font-size: 3rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-align: center;
+  color: $second-color;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 10, 10, 0.685);
+  z-index: 0;
+}

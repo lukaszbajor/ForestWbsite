@@ -1,0 +1,42 @@
+.header {
+  margin-top: 6em;
+  padding: 20px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/jungle.jpg");
+
+  &__box {
+    z-index: 2;
+    &__name,
+    &__text {
+      color: $main-color;
+    }
+    &__name {
+      font-size: 1.8rem;
+      font-weight: 200;
+    }
+    &__text {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    // background-image: url("../img/jungle.jpg");
+
+    &__box {
+      &__name {
+        font-size: 2.2rem;
+      }
+      &__text {
+        font-size: 2.8rem;
+      }
+    }
+  }
+}
