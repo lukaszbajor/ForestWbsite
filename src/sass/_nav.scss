@@ -1,6 +1,7 @@
 .nav {
   position: fixed;
   background-color: $main-color;
+  border-bottom: 1px solid $option-text-color;
   width: 100%;
   z-index: 12;
   &__wrap {

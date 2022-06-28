@@ -72,6 +72,11 @@
     text-align: center;
     color: $second-color;
   }
+  &__title {
+    &--second {
+      padding-top: 3.2em;
+    }
+  }
 }
 
 @media (min-width: 576px) {
