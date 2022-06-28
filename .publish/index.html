@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../dist/css/style.min.css" />
+    <link rel="stylesheet" href="/dist/css/style.min.css" />
     <script
       src="https://kit.fontawesome.com/9bf94860b7.js"
       crossorigin="anonymous"
@@ -19,7 +19,33 @@
   </head>
   <body>
     <div class="wrap">
-      <!-- @include 'nav.kit' -->
+      <nav class="nav">
+  <div class="nav__wrap">
+    <div class="nav__logo">
+      <i class="fas fa-tree"></i>
+      <p>Forest</p>
+    </div>
+    <div class="nav__menu">
+      <ul class="nav__menu__list">
+        <li class="nav__menu__list__item"><a href="index.html#">Home</a></li>
+        <li class="nav__menu__list__item">
+          <a href="index.html#about">O nas</a>
+        </li>
+        <li class="nav__menu__list__item">
+          <a href="index.html#offer">Oferta</a>
+        </li>
+        <li class="nav__menu__list__item"><a href="#">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <div class="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
       <header class="header">
         <div class="background"></div>
         <div class="header__box one">
@@ -202,7 +228,10 @@
           </div>
         </div>
       </section>
-      <!-- @include 'footer.kit' -->
+      <footer class="footer">
+  <p class="footer__text">&copy2021 Forest Group Company Ltd.</p>
+</footer>
+
     </div>
     <script src="/dist/js/main.min.js"></script>
   </body>
