@@ -114,14 +114,14 @@ function watchForChanges(done) {
   watch(paths.img, convertImages).on("change", browserSync.reload);
   done();
 }
-gulp.task("deploy", function () {
-  gulp.src("./dist/**/*").pipe(
-    deploy({
-      remoteUrl: "https://github.com/lukaszbajor/ForestWebsite.git",
-      branch: "master",
-    })
-  );
-});
+// gulp.task("deploy", function () {
+//   gulp.src("./dist/**/*").pipe(
+//     deploy({
+//       remoteUrl: "https://github.com/lukaszbajor/ForestWebsite.git",
+//       branch: "master",
+//     })
+//   );
+// });
 
 const mainFunctions = parallel(handleKits, style, javaScript, convertImages);
 export const cStuff = cleanStuff;
