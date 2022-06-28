@@ -17,6 +17,7 @@
       outline: none;
       border: none;
       border-bottom: 1px solid $option-icon-color;
+      font-family: "Montserrat", sans-serif;
     }
     input:focus,
     textarea:focus {
@@ -36,6 +37,7 @@
         border-bottom: unset;
         background-color: $option-icon-greencolor;
         box-shadow: 0 3px 0.7em $option-icon-greencolor;
+        font-family: "Montserrat", sans-serif;
       }
       input:focus {
         border-color: unset;
